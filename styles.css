@@ -11,12 +11,12 @@ body {
   color: #333;
 }
 
-/* Top Header */
+/* --- Top Header --- */
 .top-header {
   background-color: #4d627b;
   color: grey;
   text-align: center;
-  padding: 7px;
+  padding: 7px; /* Removed side padding */
   font-size: 7px;
 }
 
@@ -26,7 +26,7 @@ body {
   justify-content: flex-start;
   background-color: #ffffff;
   border-bottom: 1px solid #ccc;
-  padding: 10px 10px; /* Cleaned up padding */
+  padding: 10px 0; /* Removed side padding */
   gap: 10px;
 }
 
@@ -34,20 +34,20 @@ body {
   color: #e53935;
   font-size: 14px;
   font-weight: bold;
-  padding: 5px 15px; /* Improved horizontal padding */
+  padding: 5px 15px;
   border-radius: 5px;
 }
 
 .nav-item.active {
-  color: #fff; /* White text for active item */
+  color: #fff;
   border-radius: 50px;
-  background-color: #e53935; /* Distinct color for active state */
+  background-color: #e53935;
 }
 
 /* --- Profile Section --- */
 .profile {
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 0; /* Removed side margin */
 }
 
 .avatar {
@@ -57,7 +57,6 @@ body {
   border-radius: 50%;
   margin: 0 auto;
 }
-/* Adjusting the image to fit the avatar circle */
 .avatar img {
     border-radius: 50%;
     object-fit: cover;
@@ -75,8 +74,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   border-bottom: 1px solid #ccc;
-  padding: 8px 0;
-  background-color: #f4f4f4; /* Lighter background for contrast */
+  padding: 8px 0; /* Removed side padding */
+  background-color: #f4f4f4;
 }
 
 .tab-item {
@@ -84,21 +83,21 @@ body {
   color: #333;
   text-align: center;
   font-weight: bold;
-  padding: 5px 10px; /* Added padding to tabs */
+  padding: 5px 10px;
   border-radius: 5px;
 }
 
-
 .tab-item.active {
-  color: #fff; /* White text for active tab */
-  background-color: #e53935; /* Distinct color */
+  color: #fff;
+  background-color: #e53935;
 }
 
 /* --- Grades Container and Cards --- */
 .grades-container {
-  /* Added max-width and margin for centering */
   max-width: 400px; 
   margin: 20px auto; 
+  /* FIXED: Added padding only to the sides of the grades container */
+  padding: 0 15px; 
 }
 
 .card {
@@ -114,10 +113,9 @@ body {
   font-weight: 550;
   text-align: center;
   font-size: 16px;
-  margin-bottom: 10px; /* Fixed: Reduced from 10% to 10px */
+  margin-bottom: 10px;
   color: white;
 }
-/* Removed the unused .card h3 selector */
 
 .details {
   display: flex;
@@ -144,7 +142,7 @@ body {
   text-align: left;
   color: white;
   margin-left: 15%;
-  margin-bottom: 5px; /* Fixed: Reduced from 10% to 5px */
+  margin-bottom: 5px;
 }
 
 .average span {
