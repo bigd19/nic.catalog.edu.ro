@@ -154,3 +154,17 @@ body {
 .average span {
   color: white;
 }
+
+
+.google-sans-<pula> {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+.pula{
+	color:black;
+	text-align: center;
+}
