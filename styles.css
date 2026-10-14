@@ -1,3 +1,4 @@
+
 /* General Reset */
 * {
   margin: 0;
@@ -26,23 +27,22 @@ body {
   justify-content: flex-start;
   background-color: #ffffff;
   border-bottom: 1px solid #ccc;
-  padding: 10px 0;
-  gap:10px;
-  padding:5px;
+  padding: 5px;
+  gap: 10px;
 }
 
 .nav-item {
   color: #e53935;
   font-size: 14px;
   font-weight: bold;
-  text-align:left;
+  text-align: left;
   padding: 5px 10px;
   border-radius: 5px;
 }
 
 .nav-item.active {
   color: #000;
-  border-radius:50px;
+  border-radius: 50px;
   background-color: white;
 }
 
@@ -63,7 +63,6 @@ body {
 .name {
   margin-top: 10px;
   font-size: 10px;
- 
 }
 
 /* Tabs Bar */
@@ -80,9 +79,7 @@ body {
   color: #333;
   text-align: center;
   font-weight: bold;
-
 }
-
 
 .tab-item.active {
   color: #e53935;
@@ -96,6 +93,7 @@ body {
   margin: 20px auto;
 }
 
+/* Grade Cards */
 .card {
   background-color: #007bff;
   margin-bottom: 10px;
@@ -106,32 +104,32 @@ body {
 }
 
 .card h2 {
-	font-weight: 550;
-	text-align: center;
+  font-weight: 550;
+  text-align: center;
   font-size: 16px;
-  margin-bottom: 5px;
+  margin-bottom: 10%;
   color: white;
-  margin-bottom:10%;
 }
 
 .card h3 {
-	font-weight: 550;
-	text-align: center;
+  font-weight: 550;
+  text-align: center;
   font-size: 16px;
   color: white;
   padding: 5%;
- 
 }
 
+/* Grade Details */
 .details {
   display: flex;
   justify-content: center;
-  gap:25%;
+  gap: 25%;
   margin-bottom: 5px;
   font-size: 13px;
-  color:white;
+  color: white;
 }
 
+/* Scores */
 .scores {
   display: flex;
   justify-content: center;
@@ -142,48 +140,43 @@ body {
   margin-left: 20%;
 }
 
+/* Average */
 .average {
   margin-top: 10px;
   font-size: 14px;
   text-align: left;
-  color:white;
-   margin-left: 15%;
-   margin-bottom: 10%;
+  color: white;
+  margin-left: 15%;
+  margin-bottom: 10%;
 }
 
 .average span {
   color: white;
 }
 
-
-.google-sans-<pula> {
+/* Google Sans */
+.google-sans {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-    "GRAD" 0;
+  font-variation-settings: "GRAD" 0;
 }
-.pula{
-	color:black;
-	text-align: center;
-}
- .abs{
-    color: #333;
-    text-decoration: none; 
-}
-.tab-item {
-  font-size: 13px;
-  color: #333;
+
+/* Additional Classes */
+.pula {
+  color: black;
   text-align: center;
-  font-weight: bold;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.abs {
+  color: #333;
+  text-decoration: none;
 }
 
 a:visited {
-    color: #333; 
-}
-.pula {
-    display: grid;
-    place-items: center;
-    height: 100vh;
+  color: #333;
 }
